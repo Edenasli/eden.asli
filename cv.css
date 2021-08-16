@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(OpenSans-Bold.ttf);
+}
+body{
+    font-family:myFirstFont;
+    background-image: url("penguin.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 3.5vw;
+    text-align: center;
+    color: var(--salmon);
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 4.4px;
+}
+
+h2{
+    font-size:2.3vw;
+    color:#b13606;
+}
+
